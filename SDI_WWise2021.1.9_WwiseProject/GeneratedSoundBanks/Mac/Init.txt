@@ -5,6 +5,9 @@ Switch	ID	Name	Switch Group			Notes
 	712161704	Run	Speed			
 	2108779966	Walk	Speed			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2415836739	volume			\Default Work Unit\volume	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

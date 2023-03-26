@@ -11,12 +11,15 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1643020781">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2669805315">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="2415836739" Name="volume" ObjectPath="\Game Parameters\Default Work Unit\volume"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1605876511" Language="SFX" Hash="3546378379">
+		<SoundBank Id="1605876511" Language="SFX" Hash="2468264604">
 			<ObjectPath>\SoundBanks\Default Work Unit\sfx_bank</ObjectPath>
 			<ShortName>sfx_bank</ShortName>
 			<Path>sfx_bank.bnk</Path>
@@ -51,6 +54,18 @@
 							<ShortName>Parrot-004.wav</ShortName>
 							<Path>SFX\Parrot-004_10C4C929.wem</Path>
 						</File>
+						<File Id="241817247" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-006.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-006_10C4C929.wem</Path>
+						</File>
+						<File Id="298120249" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-009.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-009_10C4C929.wem</Path>
+						</File>
+						<File Id="303216422" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-008.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-008_10C4C929.wem</Path>
+						</File>
 						<File Id="370260470" Language="SFX">
 							<ShortName>Parrot-002.wav</ShortName>
 							<Path>SFX\Parrot-002_10C4C929.wem</Path>
@@ -59,9 +74,25 @@
 							<ShortName>Owl Hooting-2.wav</ShortName>
 							<Path>SFX\Owl Hooting-2_10C4C929.wem</Path>
 						</File>
+						<File Id="553691199" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-007.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-007_10C4C929.wem</Path>
+						</File>
 						<File Id="576658447" Language="SFX">
 							<ShortName>ambient_rain_1_intesity_1.wav</ShortName>
 							<Path>SFX\ambient_rain_1_intesity_1_D40D9ECF.wem</Path>
+						</File>
+						<File Id="753259835" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-005.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-005_10C4C929.wem</Path>
+						</File>
+						<File Id="788099196" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-002.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-002_10C4C929.wem</Path>
+						</File>
+						<File Id="830902308" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-001.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-001_10C4C929.wem</Path>
 						</File>
 						<File Id="863875168" Language="SFX">
 							<ShortName>Owl Hooting-1.wav</ShortName>
@@ -95,9 +126,17 @@
 							<ShortName>Parrot-001.wav</ShortName>
 							<Path>SFX\Parrot-001_10C4C929.wem</Path>
 						</File>
+						<File Id="1022538873" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-003.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-003_10C4C929.wem</Path>
+						</File>
 						<File Id="1049510316" Language="SFX">
 							<ShortName>Parrot-005.wav</ShortName>
 							<Path>SFX\Parrot-005_10C4C929.wem</Path>
+						</File>
+						<File Id="1067661403" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-004.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-004_10C4C929.wem</Path>
 						</File>
 						<File Id="1070008497" Language="SFX">
 							<ShortName>Coniferous forest ambience active.wav</ShortName>

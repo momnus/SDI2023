@@ -18,7 +18,8 @@
 				<GameParameter Name="d3d" ID="{58157D90-E7DD-4562-BD5D-DEBA925E187A}"/>
 				<GameParameter Name="volume" ID="{A981C4C2-6D53-4535-97DA-D4343E541458}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="speed" ID="{6D10608E-E587-48F7-AF7A-376BECE60A43}">
