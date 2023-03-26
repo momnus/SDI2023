@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1717373955">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1605876511" Language="SFX" Hash="1660220212">
+			<ObjectPath>\SoundBanks\Default Work Unit\sfx_bank</ObjectPath>
+			<ShortName>sfx_bank</ShortName>
+			<Path>sfx_bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1562304622" Name="Play_Ambient" ObjectPath="\Events\Default Work Unit\Play_Ambient" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="6247868" Language="SFX">
+							<ShortName>ambient_rain_1_intesity_2.wav</ShortName>
+							<Path>SFX\ambient_rain_1_intesity_2_1A3A737A.wem</Path>
+						</File>
+						<File Id="96164830" Language="SFX">
+							<ShortName>Parrot-011.wav</ShortName>
+							<Path>SFX\Parrot-011_10C4C929.wem</Path>
+						</File>
+						<File Id="126734488" Language="SFX">
+							<ShortName>Deciduous forest morning songbirds.wav</ShortName>
+							<Path>SFX\Deciduous forest morning songbirds_D79FB2B7.wem</Path>
+						</File>
+						<File Id="183393868" Language="SFX">
+							<ShortName>Parrot-003.wav</ShortName>
+							<Path>SFX\Parrot-003_10C4C929.wem</Path>
+						</File>
+						<File Id="205190448" Language="SFX">
+							<ShortName>Coniferous forest night soft wind crickets.wav</ShortName>
+							<Path>SFX\Coniferous forest night soft wind crickets_D79FB2B7.wem</Path>
+						</File>
+						<File Id="215981109" Language="SFX">
+							<ShortName>Parrot-006.wav</ShortName>
+							<Path>SFX\Parrot-006_10C4C929.wem</Path>
+						</File>
+						<File Id="225879072" Language="SFX">
+							<ShortName>Parrot-004.wav</ShortName>
+							<Path>SFX\Parrot-004_10C4C929.wem</Path>
+						</File>
+						<File Id="370260470" Language="SFX">
+							<ShortName>Parrot-002.wav</ShortName>
+							<Path>SFX\Parrot-002_10C4C929.wem</Path>
+						</File>
+						<File Id="413506777" Language="SFX">
+							<ShortName>Owl Hooting-2.wav</ShortName>
+							<Path>SFX\Owl Hooting-2_10C4C929.wem</Path>
+						</File>
+						<File Id="576658447" Language="SFX">
+							<ShortName>ambient_rain_1_intesity_1.wav</ShortName>
+							<Path>SFX\ambient_rain_1_intesity_1_D40D9ECF.wem</Path>
+						</File>
+						<File Id="863875168" Language="SFX">
+							<ShortName>Owl Hooting-1.wav</ShortName>
+							<Path>SFX\Owl Hooting-1_10C4C929.wem</Path>
+						</File>
+						<File Id="877867890" Language="SFX">
+							<ShortName>Parrot-009.wav</ShortName>
+							<Path>SFX\Parrot-009_10C4C929.wem</Path>
+						</File>
+						<File Id="911498799" Language="SFX">
+							<ShortName>ambient_rain_1_intesity_4.wav</ShortName>
+							<Path>SFX\ambient_rain_1_intesity_4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="914946809" Language="SFX">
+							<ShortName>Parrot-007.wav</ShortName>
+							<Path>SFX\Parrot-007_10C4C929.wem</Path>
+						</File>
+						<File Id="936147028" Language="SFX">
+							<ShortName>Parrot-010.wav</ShortName>
+							<Path>SFX\Parrot-010_10C4C929.wem</Path>
+						</File>
+						<File Id="936256401" Language="SFX">
+							<ShortName>Parrot-008.wav</ShortName>
+							<Path>SFX\Parrot-008_10C4C929.wem</Path>
+						</File>
+						<File Id="975717612" Language="SFX">
+							<ShortName>ambient_rain_1_intesity_3.wav</ShortName>
+							<Path>SFX\ambient_rain_1_intesity_3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="984189522" Language="SFX">
+							<ShortName>Parrot-001.wav</ShortName>
+							<Path>SFX\Parrot-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1049510316" Language="SFX">
+							<ShortName>Parrot-005.wav</ShortName>
+							<Path>SFX\Parrot-005_10C4C929.wem</Path>
+						</File>
+						<File Id="1070008497" Language="SFX">
+							<ShortName>Coniferous forest ambience active.wav</ShortName>
+							<Path>SFX\Coniferous forest ambience active_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4000411161" Name="Play_Campfire" ObjectPath="\Events\Default Work Unit\Play_Campfire" MaxAttenuation="10." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="842240184" Language="SFX">
+							<ShortName>Campfire.wav</ShortName>
+							<Path>SFX\Campfire_49AD4740.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="128342314" Name="Play_Cloth" ObjectPath="\Events\Default Work Unit\Play_Cloth" DurationType="OneShot" DurationMin="0.574917" DurationMax="1.224875">
+					<IncludedMemoryFiles>
+						<File Id="54367515" Language="SFX">
+							<ShortName>Cloth\Jacket Cloth Rustle 3.wav</ShortName>
+							<Path>SFX\Cloth\Jacket Cloth Rustle 3_10C4C929.wem</Path>
+						</File>
+						<File Id="447648280" Language="SFX">
+							<ShortName>Cloth\Jacket Cloth Rustle 5.wav</ShortName>
+							<Path>SFX\Cloth\Jacket Cloth Rustle 5_10C4C929.wem</Path>
+						</File>
+						<File Id="495435212" Language="SFX">
+							<ShortName>Cloth\Jacket Cloth Rustle 4.wav</ShortName>
+							<Path>SFX\Cloth\Jacket Cloth Rustle 4_10C4C929.wem</Path>
+						</File>
+						<File Id="575451290" Language="SFX">
+							<ShortName>Cloth\Jacket Cloth Rustle 8.wav</ShortName>
+							<Path>SFX\Cloth\Jacket Cloth Rustle 8_10C4C929.wem</Path>
+						</File>
+						<File Id="802617503" Language="SFX">
+							<ShortName>Cloth\Jacket Cloth Rustle 1.wav</ShortName>
+							<Path>SFX\Cloth\Jacket Cloth Rustle 1_10C4C929.wem</Path>
+						</File>
+						<File Id="992062180" Language="SFX">
+							<ShortName>Cloth\Jacket Cloth Rustle 2.wav</ShortName>
+							<Path>SFX\Cloth\Jacket Cloth Rustle 2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3213741227" Name="Play_CreepAmb" ObjectPath="\Events\Default Work Unit\Play_CreepAmb" MaxAttenuation="10." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="40678855" Language="SFX">
+							<ShortName>CreepAmb\ticks\Tick1-002.wav</ShortName>
+							<Path>SFX\CreepAmb\ticks\Tick1-002_10C4C929.wem</Path>
+						</File>
+						<File Id="75710416" Language="SFX">
+							<ShortName>CreepAmb\ticks\Tick1-003.wav</ShortName>
+							<Path>SFX\CreepAmb\ticks\Tick1-003_10C4C929.wem</Path>
+						</File>
+						<File Id="241817247" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-006.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-006_10C4C929.wem</Path>
+						</File>
+						<File Id="273131172" Language="SFX">
+							<ShortName>CreepAmb\ticks\Tick1-006.wav</ShortName>
+							<Path>SFX\CreepAmb\ticks\Tick1-006_10C4C929.wem</Path>
+						</File>
+						<File Id="298120249" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-009.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-009_10C4C929.wem</Path>
+						</File>
+						<File Id="303216422" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-008.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-008_10C4C929.wem</Path>
+						</File>
+						<File Id="335052010" Language="SFX">
+							<ShortName>CreepAmb\ticks\Tick1-004.wav</ShortName>
+							<Path>SFX\CreepAmb\ticks\Tick1-004_10C4C929.wem</Path>
+						</File>
+						<File Id="408766318" Language="SFX">
+							<ShortName>CreepAmb\ticks\Tick1-007.wav</ShortName>
+							<Path>SFX\CreepAmb\ticks\Tick1-007_10C4C929.wem</Path>
+						</File>
+						<File Id="449935335" Language="SFX">
+							<ShortName>CreepAmb\drone.wav</ShortName>
+							<Path>SFX\CreepAmb\drone_D79FB2B7.wem</Path>
+						</File>
+						<File Id="553691199" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-007.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-007_10C4C929.wem</Path>
+						</File>
+						<File Id="748003824" Language="SFX">
+							<ShortName>CreepAmb\ticks\Tick1-005.wav</ShortName>
+							<Path>SFX\CreepAmb\ticks\Tick1-005_10C4C929.wem</Path>
+						</File>
+						<File Id="753259835" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-005.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-005_10C4C929.wem</Path>
+						</File>
+						<File Id="788099196" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-002.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-002_10C4C929.wem</Path>
+						</File>
+						<File Id="830902308" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-001.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-001_10C4C929.wem</Path>
+						</File>
+						<File Id="959759707" Language="SFX">
+							<ShortName>CreepAmb\ticks\Tick1-001.wav</ShortName>
+							<Path>SFX\CreepAmb\ticks\Tick1-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1022538873" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-003.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-003_10C4C929.wem</Path>
+						</File>
+						<File Id="1067661403" Language="SFX">
+							<ShortName>CreepAmb\voices\Ghost_Voice-004.wav</ShortName>
+							<Path>SFX\CreepAmb\voices\Ghost_Voice-004_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3854155799" Name="Play_footSteps" ObjectPath="\Events\Default Work Unit\Play_footSteps" DurationType="OneShot" DurationMin="0.232834" DurationMax="0.639833">
+					<IncludedMemoryFiles>
+						<File Id="14780360" Language="SFX">
+							<ShortName>footSteps\Walk\Stone\ftsp_stone_walk_3.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Stone\ftsp_stone_walk_3_7D0C5558.wem</Path>
+						</File>
+						<File Id="84965076" Language="SFX">
+							<ShortName>footSteps\Walk\Stone\ftsp_stone_walk_2.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Stone\ftsp_stone_walk_2_75C00F00.wem</Path>
+						</File>
+						<File Id="148919837" Language="SFX">
+							<ShortName>footSteps\Walk\Stone\ftsp_stone_walk_1.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Stone\ftsp_stone_walk_1_6B2A5F8F.wem</Path>
+						</File>
+						<File Id="150076938" Language="SFX">
+							<ShortName>footSteps\Run\Wood\ftsp_Wood_run-003.wav</ShortName>
+							<Path>SFX\footSteps\Run\Wood\ftsp_Wood_run-003_10C4C929.wem</Path>
+						</File>
+						<File Id="198820665" Language="SFX">
+							<ShortName>footSteps\Run\Stone\ftsp_stone_run_2.wav</ShortName>
+							<Path>SFX\footSteps\Run\Stone\ftsp_stone_run_2_10C4C929.wem</Path>
+						</File>
+						<File Id="262994871" Language="SFX">
+							<ShortName>footSteps\Walk\Stone\ftsp_stone_walk_2.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Stone\ftsp_stone_walk_2_B2DD3B02.wem</Path>
+						</File>
+						<File Id="277955236" Language="SFX">
+							<ShortName>footSteps\Run\Wood\ftsp_Wood_run-001.wav</ShortName>
+							<Path>SFX\footSteps\Run\Wood\ftsp_Wood_run-001_10C4C929.wem</Path>
+						</File>
+						<File Id="356910545" Language="SFX">
+							<ShortName>footSteps\Walk\Stone\ftsp_stone_walk_4.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Stone\ftsp_stone_walk_4_42D02E59.wem</Path>
+						</File>
+						<File Id="365909496" Language="SFX">
+							<ShortName>footSteps\Walk\Wood\ftsp_wood-008.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Wood\ftsp_wood-008_10C4C929.wem</Path>
+						</File>
+						<File Id="382550711" Language="SFX">
+							<ShortName>footSteps\Walk\Stone\ftsp_stone_walk_4.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Stone\ftsp_stone_walk_4_AE6CF70A.wem</Path>
+						</File>
+						<File Id="385500810" Language="SFX">
+							<ShortName>footSteps\Run\Wood\ftsp_Wood_run-005.wav</ShortName>
+							<Path>SFX\footSteps\Run\Wood\ftsp_Wood_run-005_10C4C929.wem</Path>
+						</File>
+						<File Id="460028797" Language="SFX">
+							<ShortName>footSteps\Run\Stone\ftsp_stone_run_1.wav</ShortName>
+							<Path>SFX\footSteps\Run\Stone\ftsp_stone_run_1_10C4C929.wem</Path>
+						</File>
+						<File Id="546451811" Language="SFX">
+							<ShortName>footSteps\Run\Stone\ftsp_stone_run_6.wav</ShortName>
+							<Path>SFX\footSteps\Run\Stone\ftsp_stone_run_6_10C4C929.wem</Path>
+						</File>
+						<File Id="582678806" Language="SFX">
+							<ShortName>footSteps\Run\Stone\ftsp_stone_run_4.wav</ShortName>
+							<Path>SFX\footSteps\Run\Stone\ftsp_stone_run_4_10C4C929.wem</Path>
+						</File>
+						<File Id="641132711" Language="SFX">
+							<ShortName>footSteps\Walk\Stone\ftsp_stone_walk_5.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Stone\ftsp_stone_walk_5_66B5697A.wem</Path>
+						</File>
+						<File Id="697802586" Language="SFX">
+							<ShortName>footSteps\Walk\Stone\ftsp_stone_walk_5.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Stone\ftsp_stone_walk_5_3003652D.wem</Path>
+						</File>
+						<File Id="750323808" Language="SFX">
+							<ShortName>footSteps\Run\Wood\ftsp_Wood_run-002.wav</ShortName>
+							<Path>SFX\footSteps\Run\Wood\ftsp_Wood_run-002_10C4C929.wem</Path>
+						</File>
+						<File Id="756400651" Language="SFX">
+							<ShortName>footSteps\Walk\Wood\ftsp_wood-011.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Wood\ftsp_wood-011_10C4C929.wem</Path>
+						</File>
+						<File Id="876835447" Language="SFX">
+							<ShortName>footSteps\Walk\Wood\ftsp_wood-009.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Wood\ftsp_wood-009_10C4C929.wem</Path>
+						</File>
+						<File Id="878627868" Language="SFX">
+							<ShortName>footSteps\Run\Stone\ftsp_stone_run_5.wav</ShortName>
+							<Path>SFX\footSteps\Run\Stone\ftsp_stone_run_5_10C4C929.wem</Path>
+						</File>
+						<File Id="936528278" Language="SFX">
+							<ShortName>footSteps\Walk\Wood\ftsp_wood-010.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Wood\ftsp_wood-010_10C4C929.wem</Path>
+						</File>
+						<File Id="940687921" Language="SFX">
+							<ShortName>footSteps\Walk\Stone\ftsp_stone_walk_3.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Stone\ftsp_stone_walk_3_3A40CB19.wem</Path>
+						</File>
+						<File Id="1001353229" Language="SFX">
+							<ShortName>footSteps\Walk\Stone\ftsp_stone_walk_1.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Stone\ftsp_stone_walk_1_E2ADDB5D.wem</Path>
+						</File>
+						<File Id="1003309324" Language="SFX">
+							<ShortName>footSteps\Run\Stone\ftsp_stone_run_3.wav</ShortName>
+							<Path>SFX\footSteps\Run\Stone\ftsp_stone_run_3_10C4C929.wem</Path>
+						</File>
+						<File Id="1059753109" Language="SFX">
+							<ShortName>footSteps\Walk\Wood\ftsp_wood-007.wav</ShortName>
+							<Path>SFX\footSteps\Walk\Wood\ftsp_wood-007_10C4C929.wem</Path>
+						</File>
+						<File Id="1063405740" Language="SFX">
+							<ShortName>footSteps\Run\Wood\ftsp_Wood_run-004.wav</ShortName>
+							<Path>SFX\footSteps\Run\Wood\ftsp_Wood_run-004_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{F2D6671E-EFCF-4204-9935-E8464235D1E7}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{F2D6671E-EFCF-4204-9935-E8464235D1E7}">
+							<DefaultSwitchValue>{CBAC10C3-F1D5-4871-AB52-8A09BFE534C5}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{D7D25B43-A860-47DE-86D3-1EC9A63F6444}">
+									<Media>
+										<File Id="14780360"/>
+										<File Id="84965076"/>
+										<File Id="148919837"/>
+										<File Id="262994871"/>
+										<File Id="356910545"/>
+										<File Id="382550711"/>
+										<File Id="641132711"/>
+										<File Id="697802586"/>
+										<File Id="940687921"/>
+										<File Id="1001353229"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{CBAC10C3-F1D5-4871-AB52-8A09BFE534C5}">
+									<Media>
+										<File Id="365909496"/>
+										<File Id="756400651"/>
+										<File Id="876835447"/>
+										<File Id="936528278"/>
+										<File Id="1059753109"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{031CF653-26AA-433C-996D-02405B153C39}">
+							<DefaultSwitchValue>{CBAC10C3-F1D5-4871-AB52-8A09BFE534C5}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{D7D25B43-A860-47DE-86D3-1EC9A63F6444}">
+									<Media>
+										<File Id="198820665"/>
+										<File Id="460028797"/>
+										<File Id="546451811"/>
+										<File Id="582678806"/>
+										<File Id="878627868"/>
+										<File Id="1003309324"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{CBAC10C3-F1D5-4871-AB52-8A09BFE534C5}">
+									<Media>
+										<File Id="150076938"/>
+										<File Id="277955236"/>
+										<File Id="385500810"/>
+										<File Id="750323808"/>
+										<File Id="1063405740"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1724638476" Name="Play_Ocean" ObjectPath="\Events\Default Work Unit\Play_Ocean" MaxAttenuation="10." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="740035974" Language="SFX">
+							<ShortName>Water, Waves, Ocean, Medium, Wind.wav</ShortName>
+							<Path>SFX\Water, Waves, Ocean, Medium, Wind_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2320305530" Name="Play_ui_buttons" ObjectPath="\Events\Default Work Unit\Play_ui_buttons" DurationType="OneShot" DurationMin="0.498555" DurationMax="1.311416">
+					<IncludedMemoryFiles>
+						<File Id="177126810" Language="SFX">
+							<ShortName>Buttons.wav</ShortName>
+							<Path>SFX\Buttons_56F19BAF.wem</Path>
+						</File>
+						<File Id="439651117" Language="SFX">
+							<ShortName>Buttons.wav</ShortName>
+							<Path>SFX\Buttons_744D2429.wem</Path>
+						</File>
+						<File Id="707061301" Language="SFX">
+							<ShortName>Buttons.wav</ShortName>
+							<Path>SFX\Buttons_E6A3705C.wem</Path>
+						</File>
+						<File Id="876818231" Language="SFX">
+							<ShortName>Buttons.wav</ShortName>
+							<Path>SFX\Buttons_F264C31F.wem</Path>
+						</File>
+						<File Id="971291812" Language="SFX">
+							<ShortName>Buttons.wav</ShortName>
+							<Path>SFX\Buttons_F02F8B96.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="640949982" Name="speed" ObjectPath="\Game Parameters\Default Work Unit\speed"/>
+				<GameParameter Id="1329120100" Name="rain_intense" ObjectPath="\Game Parameters\Default Work Unit\rain_intense"/>
+				<GameParameter Id="2654366170" Name="time" ObjectPath="\Game Parameters\Default Work Unit\time"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="640949982" Name="Speed" ObjectPath="\Switches\Default Work Unit\Speed" GUID="{19C86B03-C18F-44C5-B1BB-9CB63E1B7A12}">
+					<Switches>
+						<Switch Id="712161704" Name="Run" ObjectPath="\Switches\Default Work Unit\Speed\Run" GUID="{031CF653-26AA-433C-996D-02405B153C39}"/>
+						<Switch Id="2108779966" Name="Walk" ObjectPath="\Switches\Default Work Unit\Speed\Walk" GUID="{F2D6671E-EFCF-4204-9935-E8464235D1E7}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{63E3581F-5806-40DA-A604-DD206D27911D}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Material\Stone" GUID="{D7D25B43-A860-47DE-86D3-1EC9A63F6444}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{CBAC10C3-F1D5-4871-AB52-8A09BFE534C5}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

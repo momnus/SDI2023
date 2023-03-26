@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{59902431-B942-4B7F-9678-EBE94BCAD354}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{59902431-B942-4B7F-9678-EBE94BCAD354}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{897446E9-6926-4F7B-BA38-5EFC70B54BD9}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_footSteps" ID="{E9D22D8A-3F33-4552-A047-544C4F508FE0}" WorkUnitID="{57265752-B915-463E-9F43-F1C38B1E7D97}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="volume" ID="{A981C4C2-6D53-4535-97DA-D4343E541458}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="d3d" ID="{58157D90-E7DD-4562-BD5D-DEBA925E187A}"/>
+							<Value>49.8817966903073</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="time" ID="{ED7C7B6B-D8C4-461E-A95F-08A4BDC20AF6}"/>
+							<Value>13</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="speed" ID="{6D10608E-E587-48F7-AF7A-376BECE60A43}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rain_intense" ID="{81EE3225-6FE9-4ADD-9C4C-A612A1672344}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Stone" ID="{D7D25B43-A860-47DE-86D3-1EC9A63F6444}"/>
+						<CurrentSwitchRef Name="Run" ID="{031CF653-26AA-433C-996D-02405B153C39}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

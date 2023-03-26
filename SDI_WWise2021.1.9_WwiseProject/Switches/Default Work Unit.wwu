@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C64FDCA-4459-4C97-983F-91A75E6854FA}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{7C64FDCA-4459-4C97-983F-91A75E6854FA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Speed" ID="{19C86B03-C18F-44C5-B1BB-9CB63E1B7A12}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Run" ID="{031CF653-26AA-433C-996D-02405B153C39}"/>
+						<Switch Name="Walk" ID="{F2D6671E-EFCF-4204-9935-E8464235D1E7}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="speed" ID="{6D10608E-E587-48F7-AF7A-376BECE60A43}"/>
+						<Curve Name="" ID="{0A8F05EF-68D9-4958-8E00-82368FEB1659}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>4</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>6</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="Material" ID="{63E3581F-5806-40DA-A604-DD206D27911D}">
+					<ChildrenList>
+						<Switch Name="Stone" ID="{D7D25B43-A860-47DE-86D3-1EC9A63F6444}"/>
+						<Switch Name="Wood" ID="{CBAC10C3-F1D5-4871-AB52-8A09BFE534C5}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

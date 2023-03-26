@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7965ca69512fab4cbf0bb566635a363, type: 3}
+  m_Name: B577D8C0-206E-48AB-AC82-B52A615D997F
+  m_EditorClassIdentifier: 
+  objectName: Play_Campfire
+  id: 4000411161
+  guid: B577D8C0-206E-48AB-AC82-B52A615D997F

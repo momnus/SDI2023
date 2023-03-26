@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4B0B6903-79C0-4D14-9320-ADB23DAD9221}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{4B0B6903-79C0-4D14-9320-ADB23DAD9221}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="time" ID="{ED7C7B6B-D8C4-461E-A95F-08A4BDC20AF6}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="24"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="rain_intense" ID="{81EE3225-6FE9-4ADD-9C4C-A612A1672344}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="d3d" ID="{58157D90-E7DD-4562-BD5D-DEBA925E187A}"/>
+				<GameParameter Name="volume" ID="{A981C4C2-6D53-4535-97DA-D4343E541458}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="speed" ID="{6D10608E-E587-48F7-AF7A-376BECE60A43}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="6"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

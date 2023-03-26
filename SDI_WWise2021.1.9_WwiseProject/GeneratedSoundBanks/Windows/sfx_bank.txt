@@ -1,0 +1,102 @@
+Event	ID	Name			Wwise Object Path	Notes
+	128342314	Play_Cloth			\Default Work Unit\Play_Cloth	
+	1562304622	Play_Ambient			\Default Work Unit\Play_Ambient	
+	1724638476	Play_Ocean			\Default Work Unit\Play_Ocean	
+	2320305530	Play_ui_buttons			\Default Work Unit\Play_ui_buttons	
+	3213741227	Play_CreepAmb			\Default Work Unit\Play_CreepAmb	
+	3854155799	Play_footSteps			\Default Work Unit\Play_footSteps	
+	4000411161	Play_Campfire			\Default Work Unit\Play_Campfire	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	640949982	Speed			\Default Work Unit\Speed	
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	712161704	Run	Speed			
+	2108779966	Walk	Speed			
+	1216965916	Stone	Material			
+	2058049674	Wood	Material			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	640949982	speed			\Default Work Unit\speed	
+	1329120100	rain_intense			\Default Work Unit\rain_intense	
+	2654366170	time			\Default Work Unit\time	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6247868	ambient_rain_1_intesity_2	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\ambient_rain_1_intesity_2_1A3A737A.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\ambient_rain_1_intesity_2		17352172
+	14780360	ftsp_stone_walk_3	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Stone\ftsp_stone_walk_3_7D0C5558.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Stone\Stone_heel\ftsp_stone_walk_3		10400
+	40678855	Tick1-002	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\ticks\Tick1-002_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\ticks\Tick1-002		384064
+	54367515	Jacket Cloth Rustle 3	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Cloth\Jacket Cloth Rustle 3_10C4C929.wem		\Actor-Mixer Hierarchy\Character\Cloth\Jacket Cloth Rustle 3		178332
+	75710416	Tick1-003	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\ticks\Tick1-003_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\ticks\Tick1-003		384064
+	84965076	ftsp_stone_walk_2	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Stone\ftsp_stone_walk_2_75C00F00.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Stone\Stone_Toe\ftsp_stone_walk_2		61048
+	96164830	Parrot-011	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Parrot-011_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Parrots\Parrot-011		491326
+	126734488	Deciduous forest morning songbirds	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Deciduous forest morning songbirds_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Deciduous forest morning songbirds		13582632
+	148919837	ftsp_stone_walk_1	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Stone\ftsp_stone_walk_1_6B2A5F8F.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Stone\Stone_Toe\ftsp_stone_walk_1		49372
+	150076938	ftsp_Wood_run-003	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Run\Wood\ftsp_Wood_run-003_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Run\Wood\ftsp_Wood_run-003		56008
+	177126810	Buttons_03	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Buttons_56F19BAF.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui_buttons\Buttons_03		95788
+	183393868	Parrot-003	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Parrot-003_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Parrots\Parrot-003		92158
+	198820665	ftsp_stone_run_2	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Run\Stone\ftsp_stone_run_2_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Run\Stone\ftsp_stone_run_2		50404
+	205190448	Coniferous forest night soft wind crickets	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Coniferous forest night soft wind crickets_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Coniferous forest night soft wind crickets		14091408
+	215981109	Parrot-006	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Parrot-006_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Parrots\Parrot-006		71656
+	225879072	Parrot-004	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Parrot-004_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Parrots\Parrot-004		134988
+	241817247	Ghost_Voice-006	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\voices\Ghost_Voice-006_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\voices\Ghost_Voice-006		569508
+	262994871	ftsp_stone_walk_2	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Stone\ftsp_stone_walk_2_B2DD3B02.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Stone\Stone_heel\ftsp_stone_walk_2		31248
+	273131172	Tick1-006	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\ticks\Tick1-006_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\ticks\Tick1-006		384064
+	277955236	ftsp_Wood_run-001	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Run\Wood\ftsp_Wood_run-001_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Run\Wood\ftsp_Wood_run-001		53176
+	298120249	Ghost_Voice-009	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\voices\Ghost_Voice-009_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\voices\Ghost_Voice-009		572368
+	303216422	Ghost_Voice-008	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\voices\Ghost_Voice-008_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\voices\Ghost_Voice-008		821260
+	335052010	Tick1-004	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\ticks\Tick1-004_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\ticks\Tick1-004		384064
+	356910545	ftsp_stone_walk_4	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Stone\ftsp_stone_walk_4_42D02E59.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Stone\Stone_heel\ftsp_stone_walk_4		7164
+	365909496	ftsp_wood-008	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Wood\ftsp_wood-008_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Wood\ftsp_wood-008		54746
+	370260470	Parrot-002	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Parrot-002_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Parrots\Parrot-002		264406
+	382550711	ftsp_stone_walk_4	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Stone\ftsp_stone_walk_4_AE6CF70A.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Stone\Stone_Toe\ftsp_stone_walk_4		59504
+	385500810	ftsp_Wood_run-005	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Run\Wood\ftsp_Wood_run-005_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Run\Wood\ftsp_Wood_run-005		43972
+	408766318	Tick1-007	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\ticks\Tick1-007_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\ticks\Tick1-007		384064
+	413506777	Owl Hooting-2	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Owl Hooting-2_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Owl\Owl Hooting-2		127294
+	439651117	Buttons_04	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Buttons_744D2429.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui_buttons\Buttons_04		104184
+	447648280	Jacket Cloth Rustle 5	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Cloth\Jacket Cloth Rustle 5_10C4C929.wem		\Actor-Mixer Hierarchy\Character\Cloth\Jacket Cloth Rustle 5		212428
+	449935335	drone	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\drone_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\drone		6514228
+	460028797	ftsp_stone_run_1	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Run\Stone\ftsp_stone_run_1_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Run\Stone\ftsp_stone_run_1		58660
+	495435212	Jacket Cloth Rustle 4	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Cloth\Jacket Cloth Rustle 4_10C4C929.wem		\Actor-Mixer Hierarchy\Character\Cloth\Jacket Cloth Rustle 4		181336
+	546451811	ftsp_stone_run_6	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Run\Stone\ftsp_stone_run_6_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Run\Stone\ftsp_stone_run_6		49152
+	553691199	Ghost_Voice-007	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\voices\Ghost_Voice-007_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\voices\Ghost_Voice-007		406508
+	575451290	Jacket Cloth Rustle 8	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Cloth\Jacket Cloth Rustle 8_10C4C929.wem		\Actor-Mixer Hierarchy\Character\Cloth\Jacket Cloth Rustle 8		110448
+	576658447	ambient_rain_1_intesity_1	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\ambient_rain_1_intesity_1_D40D9ECF.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\ambient_rain_1_intesity_1		17381368
+	582678806	ftsp_stone_run_4	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Run\Stone\ftsp_stone_run_4_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Run\Stone\ftsp_stone_run_4		47352
+	641132711	ftsp_stone_walk_5	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Stone\ftsp_stone_walk_5_66B5697A.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Stone\Stone_Toe\ftsp_stone_walk_5		56860
+	697802586	ftsp_stone_walk_5	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Stone\ftsp_stone_walk_5_3003652D.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Stone\Stone_heel\ftsp_stone_walk_5		7056
+	707061301	Buttons	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Buttons_E6A3705C.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui_buttons\Buttons		129080
+	740035974	Ocean	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Water, Waves, Ocean, Medium, Wind_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\Ocean		16732396
+	748003824	Tick1-005	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\ticks\Tick1-005_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\ticks\Tick1-005		384140
+	750323808	ftsp_Wood_run-002	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Run\Wood\ftsp_Wood_run-002_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Run\Wood\ftsp_Wood_run-002		41136
+	753259835	Ghost_Voice-005	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\voices\Ghost_Voice-005_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\voices\Ghost_Voice-005		518812
+	756400651	ftsp_wood-011	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Wood\ftsp_wood-011_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Wood\ftsp_wood-011		61488
+	788099196	Ghost_Voice-002	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\voices\Ghost_Voice-002_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\voices\Ghost_Voice-002		507340
+	802617503	Jacket Cloth Rustle 1	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Cloth\Jacket Cloth Rustle 1_10C4C929.wem		\Actor-Mixer Hierarchy\Character\Cloth\Jacket Cloth Rustle 1		235240
+	830902308	Ghost_Voice-001	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\voices\Ghost_Voice-001_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\voices\Ghost_Voice-001		403668
+	842240184	Campfire	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Campfire_49AD4740.wem		\Actor-Mixer Hierarchy\Ambience\Campfire		6979124
+	863875168	Owl Hooting-1	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Owl Hooting-1_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Owl\Owl Hooting-1		104952
+	876818231	Buttons_01	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Buttons_F264C31F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui_buttons\Buttons_01		251856
+	876835447	ftsp_wood-009	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Wood\ftsp_wood-009_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Wood\ftsp_wood-009		56038
+	877867890	Parrot-009	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Parrot-009_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Parrots\Parrot-009		201560
+	878627868	ftsp_stone_run_5	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Run\Stone\ftsp_stone_run_5_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Run\Stone\ftsp_stone_run_5		45024
+	911498799	ambient_rain_1_intesity_4	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\ambient_rain_1_intesity_4_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\ambient_rain_1_intesity_4		17393940
+	914946809	Parrot-007	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Parrot-007_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Parrots\Parrot-007		43102
+	936147028	Parrot-010	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Parrot-010_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Parrots\Parrot-010		138960
+	936256401	Parrot-008	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Parrot-008_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Parrots\Parrot-008		226992
+	936528278	ftsp_wood-010	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Wood\ftsp_wood-010_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Wood\ftsp_wood-010		54516
+	940687921	ftsp_stone_walk_3	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Stone\ftsp_stone_walk_3_3A40CB19.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Stone\Stone_Toe\ftsp_stone_walk_3		54408
+	959759707	Tick1-001	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\ticks\Tick1-001_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\ticks\Tick1-001		384064
+	971291812	Buttons_02	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Buttons_F02F8B96.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui_buttons\Buttons_02		103896
+	975717612	ambient_rain_1_intesity_3	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\ambient_rain_1_intesity_3_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\ambient_rain_1_intesity_3		17244724
+	984189522	Parrot-001	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Parrot-001_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Parrots\Parrot-001		276642
+	992062180	Jacket Cloth Rustle 2	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Cloth\Jacket Cloth Rustle 2_10C4C929.wem		\Actor-Mixer Hierarchy\Character\Cloth\Jacket Cloth Rustle 2		180752
+	1001353229	ftsp_stone_walk_1	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Stone\ftsp_stone_walk_1_E2ADDB5D.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Stone\Stone_heel\ftsp_stone_walk_1		10788
+	1003309324	ftsp_stone_run_3	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Run\Stone\ftsp_stone_run_3_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Run\Stone\ftsp_stone_run_3		52988
+	1022538873	Ghost_Voice-003	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\voices\Ghost_Voice-003_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\voices\Ghost_Voice-003		543880
+	1049510316	Parrot-005	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Parrot-005_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Parrots\Parrot-005		140496
+	1059753109	ftsp_wood-007	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Walk\Wood\ftsp_wood-007_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Walk\Wood\ftsp_wood-007		46626
+	1063405740	ftsp_Wood_run-004	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\footSteps\Run\Wood\ftsp_Wood_run-004_10C4C929.wem		\Actor-Mixer Hierarchy\Character\footSteps\Run\Wood\ftsp_Wood_run-004		46804
+	1067661403	Ghost_Voice-004	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\CreepAmb\voices\Ghost_Voice-004_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\CreepAmb\voices\Ghost_Voice-004		372852
+	1070008497	Coniferous forest ambience active	H:\!SDI_2023\SDI_WWise2021.1.9\SDI_WWise2021.1.9_WwiseProject\.cache\Windows\SFX\Coniferous forest ambience active_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambient\Ambient\Coniferous forest ambience active		42449844
+

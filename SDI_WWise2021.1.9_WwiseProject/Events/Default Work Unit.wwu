@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{57265752-B915-463E-9F43-F1C38B1E7D97}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{57265752-B915-463E-9F43-F1C38B1E7D97}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_CreepAmb" ID="{7E2A270B-930A-4030-AD10-92D4EA14D540}">
+					<ChildrenList>
+						<Action Name="" ID="{59C219F5-7975-4E51-B7EA-3C543A5F754D}" ShortID="454895036">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CreepAmb" ID="{9F56F01D-3F4F-4960-B07B-142A6201724F}" WorkUnitID="{6EDB2A5E-361D-4F51-AB6D-BDBE49217A0D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Campfire" ID="{B577D8C0-206E-48AB-AC82-B52A615D997F}">
+					<ChildrenList>
+						<Action Name="" ID="{FC8BEA32-262D-444E-A6A3-4782D7B98898}" ShortID="583941408">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Campfire" ID="{7773EFC1-7F47-4357-8F5A-018A0A26DD76}" WorkUnitID="{6EDB2A5E-361D-4F51-AB6D-BDBE49217A0D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ocean" ID="{6FB34EB4-47E9-401F-B3EF-C8D0397994BE}">
+					<ChildrenList>
+						<Action Name="" ID="{ED2CAEC1-C3C1-4EE3-AA8A-50C8828D336F}" ShortID="13156172">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ocean" ID="{BD5F979D-946A-4840-A523-4B0B49CA2EF1}" WorkUnitID="{6EDB2A5E-361D-4F51-AB6D-BDBE49217A0D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cloth" ID="{09585813-53EB-40C4-B983-86376F157294}">
+					<ChildrenList>
+						<Action Name="" ID="{EBB6B2FC-5BBA-4887-A733-83E45958FE9B}" ShortID="967472123">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cloth" ID="{09C80AB8-D39A-487D-A90C-1CC694F28955}" WorkUnitID="{5727C12B-AC47-41EE-AEF2-766D31A2EAE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_footSteps" ID="{E9D22D8A-3F33-4552-A047-544C4F508FE0}">
+					<ChildrenList>
+						<Action Name="" ID="{48810B01-4DE1-431E-B012-9BDBC153030B}" ShortID="118127071">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="footSteps" ID="{A6F9D31C-CF90-425A-83ED-C6CDAC4493BD}" WorkUnitID="{5727C12B-AC47-41EE-AEF2-766D31A2EAE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ui_buttons" ID="{41067D70-84D9-4EBE-88F5-6CE67E7EC5FD}">
+					<ChildrenList>
+						<Action Name="" ID="{E12DAC90-AE05-4297-8F93-EF39637A633F}" ShortID="190807756">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ui_buttons" ID="{51670FC7-033E-428D-9140-3FB08553068E}" WorkUnitID="{3101F833-E585-48CA-93C4-BA83FDE754C0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambient" ID="{1450E477-5C4F-4BD4-AAE4-E1FCA4B05C7B}">
+					<ChildrenList>
+						<Action Name="" ID="{4F364813-DCDD-441E-A3D8-CD036B85ECD7}" ShortID="493576868">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient" ID="{9ECAE64D-B5E5-4735-92DA-5D476308D2DE}" WorkUnitID="{7157B19F-9ED5-4D3F-B059-26E4B8024A4A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

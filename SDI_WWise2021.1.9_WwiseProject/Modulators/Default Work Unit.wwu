@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2399D246-02DA-4629-B9A1-95ECFA59024D}" SchemaVersion="103">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{2399D246-02DA-4629-B9A1-95ECFA59024D}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="New Modulator LFO" ID="{08EA6A1A-BB39-49F7-A6E3-FD0AC40DF678}" ShortID="657398371">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="New Modulator LFO_01" ID="{F14896B1-B498-4EB0-ACF8-7A628E5B49B2}" ShortID="290725251">
+					<PropertyList>
+						<Property Name="LfoAttack" Type="Real64" Value="10"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="4.76"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="New Modulator LFO_02" ID="{D4C455D0-7B5B-4CDA-81E5-A7937C52C423}" ShortID="841530861">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.2"/>
+						<Property Name="LfoInitialPhase" Type="Real64" Value="-180"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorEnvelope Name="New Modulator Envelope" ID="{C26F9B41-9758-4764-87CC-5D8F9BB81179}" ShortID="213322334">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="72"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.532"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

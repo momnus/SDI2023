@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5727C12B-AC47-41EE-AEF2-766D31A2EAE8}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Character" ID="{5727C12B-AC47-41EE-AEF2-766D31A2EAE8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="footSteps" ID="{A6F9D31C-CF90-425A-83ED-C6CDAC4493BD}" ShortID="537147002">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Walk" ID="{F2D6671E-EFCF-4204-9935-E8464235D1E7}" WorkUnitID="{7C64FDCA-4459-4C97-983F-91A75E6854FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Speed" ID="{19C86B03-C18F-44C5-B1BB-9CB63E1B7A12}" WorkUnitID="{7C64FDCA-4459-4C97-983F-91A75E6854FA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="Run" ID="{90F22023-E339-4719-80FB-A27ED2C629E8}" ShortID="210375145">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Wood" ID="{CBAC10C3-F1D5-4871-AB52-8A09BFE534C5}" WorkUnitID="{7C64FDCA-4459-4C97-983F-91A75E6854FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Material" ID="{63E3581F-5806-40DA-A604-DD206D27911D}" WorkUnitID="{7C64FDCA-4459-4C97-983F-91A75E6854FA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Stone" ID="{849789CF-5DED-48AD-8161-934E6322FDD0}" ShortID="1021608939">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ftsp_stone_run_1" ID="{3E3EC68A-13EC-4C02-A758-B1A976B5C014}" ShortID="92642584">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_stone_run_1" ID="{C2461A17-959B-4727-852B-4E793CC60100}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Run\Stone\ftsp_stone_run_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="460028797"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_stone_run_1" ID="{C2461A17-959B-4727-852B-4E793CC60100}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ftsp_stone_run_2" ID="{18D86CD5-39BA-48E4-AC5F-927A98F6A28B}" ShortID="569775590">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_stone_run_2" ID="{EE12D266-3C2A-44C2-BDC6-4708F7886013}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Run\Stone\ftsp_stone_run_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="198820665"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_stone_run_2" ID="{EE12D266-3C2A-44C2-BDC6-4708F7886013}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ftsp_stone_run_3" ID="{EE476A32-1FD2-4A41-8532-4FBAC3201F7A}" ShortID="108996992">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_stone_run_3" ID="{0798B4F8-57E8-40D5-B040-F881E4459C91}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Run\Stone\ftsp_stone_run_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1003309324"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_stone_run_3" ID="{0798B4F8-57E8-40D5-B040-F881E4459C91}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ftsp_stone_run_4" ID="{4DD0BCC8-1CD7-413D-B417-4ED4FB6DC813}" ShortID="296338625">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_stone_run_4" ID="{DE059FB4-3D56-4878-AD75-1032EB5F0BB5}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Run\Stone\ftsp_stone_run_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="582678806"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_stone_run_4" ID="{DE059FB4-3D56-4878-AD75-1032EB5F0BB5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ftsp_stone_run_5" ID="{500B9BF5-9666-4866-A2FB-6EDD7243C9FB}" ShortID="964572092">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_stone_run_5" ID="{ADF398CA-4D28-44C8-9D07-DD5CA01EF75D}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Run\Stone\ftsp_stone_run_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="878627868"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_stone_run_5" ID="{ADF398CA-4D28-44C8-9D07-DD5CA01EF75D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ftsp_stone_run_6" ID="{2206CFD6-887F-4E38-83E5-333BC1713723}" ShortID="1067170926">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_stone_run_6" ID="{5AD7382F-61CF-4D43-9E40-5F05D10252FA}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Run\Stone\ftsp_stone_run_6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="546451811"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_stone_run_6" ID="{5AD7382F-61CF-4D43-9E40-5F05D10252FA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Wood" ID="{EE9FD206-9D55-4EA4-859D-EA391890E067}" ShortID="344754834">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ftsp_Wood_run-001" ID="{500C6346-87A8-4446-9700-7E28CED2B114}" ShortID="107492918">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_Wood_run-001" ID="{937D2ED8-58F7-49AB-B684-1A8847A68380}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Run\Wood\ftsp_Wood_run-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="277955236"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_Wood_run-001" ID="{937D2ED8-58F7-49AB-B684-1A8847A68380}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ftsp_Wood_run-002" ID="{2ADBF53C-25DA-440D-A9EC-4A540C4FE3F6}" ShortID="1037440465">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_Wood_run-002" ID="{2F437C94-C4C0-472E-A4DE-5FB411C7A05F}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Run\Wood\ftsp_Wood_run-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="750323808"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_Wood_run-002" ID="{2F437C94-C4C0-472E-A4DE-5FB411C7A05F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ftsp_Wood_run-003" ID="{D5A682A6-38BA-435A-9E94-2D38C10DC769}" ShortID="850577754">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_Wood_run-003" ID="{F8F86B47-83E3-4BFE-82E4-FC295B3FE51D}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Run\Wood\ftsp_Wood_run-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="150076938"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_Wood_run-003" ID="{F8F86B47-83E3-4BFE-82E4-FC295B3FE51D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ftsp_Wood_run-004" ID="{E3436A6E-20A1-4BD8-B6CE-505C1D72E262}" ShortID="956529604">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_Wood_run-004" ID="{8EC52167-7A45-48FF-A757-DF3D593E6174}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Run\Wood\ftsp_Wood_run-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1063405740"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_Wood_run-004" ID="{8EC52167-7A45-48FF-A757-DF3D593E6174}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ftsp_Wood_run-005" ID="{83AD309B-339F-4999-804B-F54B70B6D8FC}" ShortID="172759743">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_Wood_run-005" ID="{0E21B4B2-27FC-466F-88E6-5394C0E1D967}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Run\Wood\ftsp_Wood_run-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="385500810"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_Wood_run-005" ID="{0E21B4B2-27FC-466F-88E6-5394C0E1D967}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Wood" ID="{EE9FD206-9D55-4EA4-859D-EA391890E067}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Stone" ID="{849789CF-5DED-48AD-8161-934E6322FDD0}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Stone" ID="{D7D25B43-A860-47DE-86D3-1EC9A63F6444}"/>
+										<ItemList>
+											<ItemRef Name="Stone" ID="{849789CF-5DED-48AD-8161-934E6322FDD0}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{CBAC10C3-F1D5-4871-AB52-8A09BFE534C5}"/>
+										<ItemList>
+											<ItemRef Name="Wood" ID="{EE9FD206-9D55-4EA4-859D-EA391890E067}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Walk" ID="{AD0A7B78-EDC0-44F8-9C9F-409FDD21FADD}" ShortID="185855532">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Wood" ID="{CBAC10C3-F1D5-4871-AB52-8A09BFE534C5}" WorkUnitID="{7C64FDCA-4459-4C97-983F-91A75E6854FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Material" ID="{63E3581F-5806-40DA-A604-DD206D27911D}" WorkUnitID="{7C64FDCA-4459-4C97-983F-91A75E6854FA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Wood" ID="{B2A3AA98-8F52-4BA4-95CB-E66F195CB86D}" ShortID="348831352">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ftsp_wood-007" ID="{DAC03296-184A-4C55-9A65-109BCCC531FA}" ShortID="127134917">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_wood-007" ID="{DF62CD1C-76F4-4B14-91B4-AC25D7E42AB5}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Walk\Wood\ftsp_wood-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1059753109"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_wood-007" ID="{DF62CD1C-76F4-4B14-91B4-AC25D7E42AB5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ftsp_wood-008" ID="{AFD2AD60-2FC0-4551-9C58-8EF37FBDCCBD}" ShortID="426249467">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_wood-008" ID="{393A02F4-62CD-4FDA-B7B0-8F9BD7A79C21}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Walk\Wood\ftsp_wood-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="365909496"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_wood-008" ID="{393A02F4-62CD-4FDA-B7B0-8F9BD7A79C21}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ftsp_wood-009" ID="{B91F5051-F2F4-4B58-99EE-1A4981CE74D9}" ShortID="37799257">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_wood-009" ID="{578D883B-F646-4E49-B343-FB2861BF757F}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Walk\Wood\ftsp_wood-009.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="876835447"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_wood-009" ID="{578D883B-F646-4E49-B343-FB2861BF757F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ftsp_wood-010" ID="{DA0933BF-7929-445F-85F7-38F2C8291BFF}" ShortID="944085371">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_wood-010" ID="{1BE99C3E-442F-43BF-808C-C6413B650FB1}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Walk\Wood\ftsp_wood-010.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="936528278"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_wood-010" ID="{1BE99C3E-442F-43BF-808C-C6413B650FB1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ftsp_wood-011" ID="{43C20127-2FC0-4308-8B86-D99341CF91AD}" ShortID="661110994">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ftsp_wood-011" ID="{27AD6CD5-937F-4752-8497-4F9A184DBD76}">
+													<Language>SFX</Language>
+													<AudioFile>footSteps\Walk\Wood\ftsp_wood-011.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="756400651"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ftsp_wood-011" ID="{27AD6CD5-937F-4752-8497-4F9A184DBD76}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Stone" ID="{CA801170-A23F-43B0-A9A1-DA3844749665}" ShortID="888515875">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Stone_heel" ID="{86712582-0191-4E4E-B8DB-1BBAE3E7A519}" ShortID="569170478">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ftsp_stone_walk_1" ID="{02DF5347-F8F3-474D-BDDD-550331BA7E5F}" ShortID="92917152">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ftsp_stone_walk_1" ID="{B72CECBF-11A0-4803-8889-42B84DECD3A5}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.0607823902639728"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>footSteps\Walk\Stone\ftsp_stone_walk_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1001353229"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ftsp_stone_walk_1" ID="{B72CECBF-11A0-4803-8889-42B84DECD3A5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ftsp_stone_walk_2" ID="{5B9BD251-2155-4A47-AC05-3C7B7FCADA80}" ShortID="451345002">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ftsp_stone_walk_2" ID="{5151327E-952A-4B80-9DC5-11CDFD70076E}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.176783278113428"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>footSteps\Walk\Stone\ftsp_stone_walk_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="262994871"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ftsp_stone_walk_2" ID="{5151327E-952A-4B80-9DC5-11CDFD70076E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ftsp_stone_walk_3" ID="{334ACEE4-ABB0-4C97-A621-A5156C3D2E44}" ShortID="146050691">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ftsp_stone_walk_3" ID="{804B2CA8-BF63-4DFA-B8BE-CE9202AC841E}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.0585921244350401"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>footSteps\Walk\Stone\ftsp_stone_walk_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="14780360"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ftsp_stone_walk_3" ID="{804B2CA8-BF63-4DFA-B8BE-CE9202AC841E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ftsp_stone_walk_4" ID="{D3551278-8899-4C47-96E2-7D94392342C9}" ShortID="116207739">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ftsp_stone_walk_4" ID="{5F525825-9575-4464-87CE-44631180B637}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.0402455661664393"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>footSteps\Walk\Stone\ftsp_stone_walk_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="356910545"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ftsp_stone_walk_4" ID="{5F525825-9575-4464-87CE-44631180B637}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ftsp_stone_walk_5" ID="{0BA5C931-23D2-41B6-ABE7-1EB14961DCC4}" ShortID="605646655">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ftsp_stone_walk_5" ID="{A5DEDABF-1F7B-4F19-BB8E-1F943375AE8F}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.0396291449731325"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>footSteps\Walk\Stone\ftsp_stone_walk_5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="697802586"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ftsp_stone_walk_5" ID="{A5DEDABF-1F7B-4F19-BB8E-1F943375AE8F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Stone_Toe" ID="{C663B5F3-9945-4588-A6E7-BB13D54EA386}" ShortID="29774156">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ftsp_stone_walk_1" ID="{4F54E2D5-EF29-4666-9B65-624EA29F5FDE}" ShortID="136772668">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ftsp_stone_walk_1" ID="{2769F5CC-FED3-4AAE-8FC5-83C34F96E3C8}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.061107429784101"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.34064141709435"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>footSteps\Walk\Stone\ftsp_stone_walk_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="148919837"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ftsp_stone_walk_1" ID="{2769F5CC-FED3-4AAE-8FC5-83C34F96E3C8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ftsp_stone_walk_2" ID="{1A844AA6-20A5-4731-B8BF-F83AC46F2683}" ShortID="635953403">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ftsp_stone_walk_2" ID="{D7D143F2-EBF0-4E66-A247-0F1CE189FFD0}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.176222061357513"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.52193158300155"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>footSteps\Walk\Stone\ftsp_stone_walk_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="84965076"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ftsp_stone_walk_2" ID="{D7D143F2-EBF0-4E66-A247-0F1CE189FFD0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ftsp_stone_walk_3" ID="{4DCFE1A0-8208-428A-9F9A-B83B57901E61}" ShortID="7746516">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ftsp_stone_walk_3" ID="{E23B3419-DAF9-4CDB-A3D7-68ACD0E6D376}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0589606283623045"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.367029911555345"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>footSteps\Walk\Stone\ftsp_stone_walk_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="940687921"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ftsp_stone_walk_3" ID="{E23B3419-DAF9-4CDB-A3D7-68ACD0E6D376}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ftsp_stone_walk_4" ID="{A14C7F3A-5505-48A5-9680-57FDF1F626A8}" ShortID="761914508">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ftsp_stone_walk_4" ID="{86578B8F-C7DA-4F28-AC0A-E672B91C2CB8}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0399045020463847"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.3768758526603"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>footSteps\Walk\Stone\ftsp_stone_walk_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="382550711"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ftsp_stone_walk_4" ID="{86578B8F-C7DA-4F28-AC0A-E672B91C2CB8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ftsp_stone_walk_5" ID="{1A40E122-AFF1-48F3-935F-8BDD9D9BEC07}" ShortID="715956050">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ftsp_stone_walk_5" ID="{35E7DC8A-AD14-4C34-B39B-B317BB9A9B76}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0387003368878247"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.360687139794526"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>footSteps\Walk\Stone\ftsp_stone_walk_5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="641132711"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ftsp_stone_walk_5" ID="{35E7DC8A-AD14-4C34-B39B-B317BB9A9B76}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<Playlist>
+										<ItemRef Name="Stone_heel" ID="{86712582-0191-4E4E-B8DB-1BBAE3E7A519}"/>
+										<ItemRef Name="Stone_Toe" ID="{C663B5F3-9945-4588-A6E7-BB13D54EA386}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Stone" ID="{CA801170-A23F-43B0-A9A1-DA3844749665}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Wood" ID="{B2A3AA98-8F52-4BA4-95CB-E66F195CB86D}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Stone" ID="{D7D25B43-A860-47DE-86D3-1EC9A63F6444}"/>
+										<ItemList>
+											<ItemRef Name="Stone" ID="{CA801170-A23F-43B0-A9A1-DA3844749665}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{CBAC10C3-F1D5-4871-AB52-8A09BFE534C5}"/>
+										<ItemList>
+											<ItemRef Name="Wood" ID="{B2A3AA98-8F52-4BA4-95CB-E66F195CB86D}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+					<ObjectLists/>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Run" ID="{90F22023-E339-4719-80FB-A27ED2C629E8}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Walk" ID="{AD0A7B78-EDC0-44F8-9C9F-409FDD21FADD}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Walk" ID="{F2D6671E-EFCF-4204-9935-E8464235D1E7}"/>
+								<ItemList>
+									<ItemRef Name="Walk" ID="{AD0A7B78-EDC0-44F8-9C9F-409FDD21FADD}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Run" ID="{031CF653-26AA-433C-996D-02405B153C39}"/>
+								<ItemList>
+									<ItemRef Name="Run" ID="{90F22023-E339-4719-80FB-A27ED2C629E8}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<RandomSequenceContainer Name="Cloth" ID="{09C80AB8-D39A-487D-A90C-1CC694F28955}" ShortID="654845953">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Jacket Cloth Rustle 1" ID="{C94554EE-EF14-4963-83A6-782C3F531FBF}" ShortID="109667928">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jacket Cloth Rustle 1" ID="{1D5D47AA-197B-42CC-91FA-59783F2374CF}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth\Jacket Cloth Rustle 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="802617503"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Jacket Cloth Rustle 1" ID="{1D5D47AA-197B-42CC-91FA-59783F2374CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jacket Cloth Rustle 2" ID="{90634523-5EF1-434B-8438-FE392D841C8D}" ShortID="961887990">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jacket Cloth Rustle 2" ID="{9C7781D8-FB19-4B06-B318-8928712179C3}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth\Jacket Cloth Rustle 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="992062180"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Jacket Cloth Rustle 2" ID="{9C7781D8-FB19-4B06-B318-8928712179C3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jacket Cloth Rustle 3" ID="{B0A07893-976F-4D0C-BE98-D20565B294CB}" ShortID="800683571">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jacket Cloth Rustle 3" ID="{DF779230-251C-46C8-BE22-21DBFD759C51}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth\Jacket Cloth Rustle 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="54367515"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Jacket Cloth Rustle 3" ID="{DF779230-251C-46C8-BE22-21DBFD759C51}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jacket Cloth Rustle 4" ID="{AC335F64-A434-45F6-8221-EC82116DDB4A}" ShortID="212886488">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jacket Cloth Rustle 4" ID="{3D4340C8-4E48-4090-B2D4-F8F21085B3D7}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth\Jacket Cloth Rustle 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="495435212"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Jacket Cloth Rustle 4" ID="{3D4340C8-4E48-4090-B2D4-F8F21085B3D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jacket Cloth Rustle 5" ID="{BE0E3B8C-4AD0-4E4C-A504-2095C77E4F08}" ShortID="596023863">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jacket Cloth Rustle 5" ID="{F072C057-55BF-49BB-96AE-81C0704B6D5C}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth\Jacket Cloth Rustle 5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="447648280"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Jacket Cloth Rustle 5" ID="{F072C057-55BF-49BB-96AE-81C0704B6D5C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jacket Cloth Rustle 8" ID="{0D199EC7-EE9F-4F5C-B7CA-3E9821ED9279}" ShortID="95600357">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A281DD49-556C-4FF2-8E34-FEDD4B1AE9BD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F9DFD538-BCF5-4E91-8C12-D4F0412BD27A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jacket Cloth Rustle 8" ID="{42BB3F7B-FD4D-4C9A-9FC4-69E5F95260A2}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth\Jacket Cloth Rustle 8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="575451290"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Jacket Cloth Rustle 8" ID="{42BB3F7B-FD4D-4C9A-9FC4-69E5F95260A2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
