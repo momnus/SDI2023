@@ -5,7 +5,7 @@ using UnityEngine;
 public class DayNight_Script : MonoBehaviour
 {
     public DayNightController dnc;
-    // public AK.Wwise.RTPC Time;
+     public AK.Wwise.RTPC Time;
 
 
     [SerializeField][Range(0, 24f)] private float time;
@@ -25,7 +25,9 @@ public class DayNight_Script : MonoBehaviour
     {
         CalculateTime();
 
-        //   Time.SetGlobalValue(time);
+        time = dnc.currentTime;
+
+          Time.SetGlobalValue(time);
 
 
         #region GUI
